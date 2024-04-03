@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+/* reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Montserrat", "Noto Sans KR", sans-serif;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg {
+    width: 850px;
+    height: 850px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    width: 60%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    width: 100%;
+    height: 440px;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.title {
+    text-align: center;
+    margin: 20px;
+}
+.title > h1 {
+    font-size: 30px;
+    margin: 5px 0px;
+}
+.title > p {
+    font-size: 18px;
+    color: #888888;
+}
+
+#login-form > * {
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    border: none;
+    border: 1px solid #d2d2d2;
+}
+#login-form > #id {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: none;
+}
+#login-form > #id:focus, #pwd:focus {
+    border-color: #9BCE26;
+    outline: none;
+}
+#login-form > #pwd {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.find {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.find > * {
+    font-size: 14px;
+}
+
+.save {
+    color: #333333;
+}
+.save > input {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.find a {
+    color: #999999;
+}
+.find p {
+    color: #d2d2d2;
+}
+
+.login-btn {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background: #9BCE26;
+    cursor: pointer;
+}
+.login-btn a {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.kakao {
+    width: 100%;
+    height: 90px;
+    align-items:flex-start;
+    margin-top: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+.kakao p {
+    font-size: 13px;
+    color: #999999;
+}
+.kakao img {
+    width: 35%;
+}
+
+.cjone {
+    width: 100%;
+    height: 100%;
+}
+.cjone img {
+    margin-top: 10px;
+    width: 30%;
+}
+
+.cjsignup {
+    display: flex;
+    justify-content: space-between;
+}
+.cjsignup p {
+    font-size: 13px;
+    color: #777777;
+    font-weight: bold;
+}
+
+.btn {
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.btn a {
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+}
